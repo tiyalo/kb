@@ -47,8 +47,8 @@
             "cssFooterBackgroundColor": "",
             "cssFooterTextColor": "",
             "cssButtonBackgroundColor": "",
-            "cssButtonTextColor": "",
-            "cssLinkColor": "",
+            "cssButtonTextColor": "#DC1E3D",
+            "cssLinkColor": "#DC1E3D",
             "cssTextColor": "",
             "cssFontFamily": ""
         }
