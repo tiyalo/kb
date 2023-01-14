@@ -41,7 +41,7 @@ router.get('/', common.restrict, (req, res, next) => {
     common.dbQuery(db.kb, { kb_published: 'true' }, sortBy, config.settings.num_top_results, (err, top_results) => {
         common.dbQuery(db.kb, { kb_published: 'true', kb_featured: 'true' }, sortBy, featuredCount, (err, featured_results) => {
             res.render('index', {
-                title: 'openKB',
+                title: 'tiyalo',
                 user_page: true,
                 homepage: true,
                 top_results: top_results,
@@ -1030,7 +1030,7 @@ router.get('/setup', (req, res) => {
         // dont allow the user to "re-setup" if a user exists.
         // set needs_setup to false as a user exists
         req.session.needs_setup = false;
-        if(user_count === 0){
+        if(user_count !== 0){
             res.render('setup', {
                 title: 'Setup',
                 config: config,

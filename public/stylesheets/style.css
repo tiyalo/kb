@@ -195,7 +195,7 @@ html{
 }
 
 .notify_message-success{
-    background-color: #18bc9c;
+    background-color: #dc1e3d;
 }
 
 .notify_message-danger{
@@ -241,3 +241,10 @@ html{
     cursor: inherit;
     display: block;
 }
+.navbar-brand{
+    padding: 1.5px 15px !important;
+}
+
+.navbar-default {
+    background-color: #01070d !important;
+  }

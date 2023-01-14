@@ -157,7 +157,7 @@ handlebars = handlebars.create({
                 cssString = cssString + '#btn_search, .btn-default{background-color:' + config.settings.style.cssButtonBackgroundColor + ';border-color:' + config.settings.style.cssButtonBackgroundColor + ';}';
             }
             if(typeof config.settings.style.cssButtonTextColor !== 'undefined' && config.settings.style.cssButtonTextColor !== ''){
-                cssString = cssString + '#btn_search, .btn-default{color:' + config.settings.style.cssButtonTextColor + ';}';
+                cssString = cssString + '#btn_search, .btn-default{color: white;}';
             }
             if(typeof config.settings.style.cssLinkColor !== 'undefined' && config.settings.style.cssLinkColor !== ''){
                 cssString = cssString + 'a, footer a, a:hover, a:focus, .contactLink a{color:' + config.settings.style.cssLinkColor + ' !important;}';
